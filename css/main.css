@@ -1,6 +1,8 @@
 body {
     margin: 60px auto;
     width: 70%;
+    border-style:solid; 
+    border-color:transparent;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -41,9 +43,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-div {
-    border-style:solid; 
-    border-color:transparent;
-}
-
