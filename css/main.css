@@ -38,6 +38,13 @@ ul.posts {
     font-size: 1.5em;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 ul.posts li {
     list-style: none;
 }
