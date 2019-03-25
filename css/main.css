@@ -1,8 +1,6 @@
 body {
     margin: 60px auto;
     width: 70%;
-    border-style: solid;
-    border-color: transparent;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -24,14 +22,10 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    border-style: solid;
-    border-color: transparent;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    border-style: solid;
-    border-color: transparent;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -45,4 +39,9 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+img {
+    border-style: solid;
+    border-color: transparent;
 }
