@@ -2,3 +2,4 @@ name: Nikolaos (Nikos) Nikolaou
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 publishDir: docs
+theme: minima
