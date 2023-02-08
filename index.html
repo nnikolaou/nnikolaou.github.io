@@ -14,6 +14,33 @@
 <title>Nikolaos (Nikos) Nikolaou</title>
 <!-- link to main stylesheet -->
 <link rel="stylesheet" type="text/css" href="/css/main.css">
+	
+* {
+  height: 100%;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  padding: 0 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .images {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+	
+	
 </head>
 <body>
 <nav>
@@ -35,10 +62,10 @@
  I am a Lecturer in Data Intensive Science at UCL's Department of Physics &amp Astronomy. My work revolves around the theory of
  machine learning &amp data science models and algorithms, and their application to problems in Physics -primarily in various subareas of Astronomy &amp Clean Energy- and in Biomedicine.
  </div>
-
-<div id="images">
-    <img alt="UCL" src="/files/UCL_logo.png" border="0" width="100">
-    <img alt="UCL CDT in Data Intensive Science" src="/files/UCL_CDT_DIS_logo.png" border="0" width="200">
+	
+<div class="images">
+  <img src="/files/UCL_logo.png" width="100">
+  <img src="/files/UCL_CDT_DIS_logo.png" width="200">
 </div>	
 
  <br>
