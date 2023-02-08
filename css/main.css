@@ -51,20 +51,12 @@ img {
 }
 
 
+FIGURE, FIGCAPTION {
 
+display: block;
+font-style: italic;
+font-variant: small-caps;
 
-
-.images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto 0;
-  padding: 0 200px;
 }
 
-@media screen and (max-width: 768px) {
-  .images {
-    flex-direction: column;
-    padding: 0;
-  }
-}
+
